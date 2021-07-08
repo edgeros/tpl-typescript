@@ -1,0 +1,23 @@
+{
+    "name": "tpl-typescript",
+    "version": "0.0.2",
+    "description": "edgeros eap program typescript template",
+    "main": "dist/main.js",
+    "scripts": {
+        "compile": "tsc -b",
+        "lint": "eslint src/**/*.ts"
+    },
+    "keywords": [],
+    "author": "xieyuanbin@acoinfo.com",
+    "license": "ISC",
+    "devDependencies": {
+        "@edgeros/jsre-types": "^1.4.5",
+        "@typescript-eslint/eslint-plugin": "^4.28.2",
+        "eslint": "^7.30.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-import": "^2.23.4",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^5.1.0",
+        "typescript": "^4.3.5"
+    }
+}
