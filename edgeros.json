@@ -21,7 +21,7 @@
         "log": "console",
         "will": false,
         "reside": false,
-        "mesv": "1.0.0",
+        "mesv": "1.4.3",
         "experimental": false
     },
     "loading": {
