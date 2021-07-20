@@ -9,7 +9,7 @@
     },
     "keywords": [],
     "author": "xieyuanbin@acoinfo.com",
-    "license": "ISC",
+    "license": "MIT",
     "devDependencies": {
         "@edgeros/jsre-types": "^1.4.5",
         "@typescript-eslint/eslint-plugin": "^4.28.2",
