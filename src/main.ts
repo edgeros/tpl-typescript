@@ -1,12 +1,11 @@
 import WebApp from 'webapp'
 import myRouter from './routers/rest'
-import path from 'path'
 
 /* Create App */
 const app = WebApp.createApp()
 
 /* Set static path */
-app.use(WebApp.static(path.resolve(path.dirname(module.directory), '/public')))
+app.use(WebApp.static('./public'))
 
 /* Set test rest */
 app.use('/api', myRouter)
