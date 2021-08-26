@@ -1,18 +1,29 @@
 # tpl-typescript
 
-This repository is build for EdgerOS CLI(or EdgerOS VSCode extention).
+EdgerOS app template of TypeScript.
 
-Also you can build EdgerOS APP through `git clone` this repository.
+## Usage
 
-# Usage
+### Install:
 
-### Test
-```shell
-npm run lint
-```
+- `git clone git@github.com:edgeros/tpl-typescript.git`
+- select 'TypeScript' template when [create project from VSCode](https://marketplace.visualstudio.com/items?itemName=edgeros.edgeros)
+- select 'TypeScript' template when create project via CLI (TBD)
+
+Remember to **`npm install` before you start**
 
 ### Compile
+
+Remember to **compile the TypeScript before uploading**. By default `dist` will be the output folder, and we build the EdgerOS app from there too.
+
 ```shell
 npm run compile
 ```
- When we compiled the program, We will get the `dist` folder and then install the app through VSCode.
+
+### ESLint
+
+Enforce code style and locate problems.
+
+```shell
+npm run lint
+```

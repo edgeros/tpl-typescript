@@ -1,7 +1,7 @@
 {
     "name": "tpl-typescript",
-    "version": "0.0.6",
-    "description": "edgeros eap program typescript template",
+    "version": "0.0.7",
+    "description": "EdgerOS app template of TypeScript",
     "main": "dist/main.js",
     "scripts": {
         "compile": "tsc -b",
