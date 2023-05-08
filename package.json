@@ -1,5 +1,5 @@
 {
-    "name": "tpl-typescript",
+    "name": "com.example.default",
     "version": "0.0.8",
     "description": "EdgerOS app template of TypeScript",
     "main": "dist/main.js",

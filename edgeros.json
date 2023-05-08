@@ -1,6 +1,6 @@
 {
-    "name": "default",
-    "bundleid": "com.example.myapp",
+    "name": "typescript",
+    "bundleid": "com.example.default",
     "ignore_modules": [
         "@edgeros/eslint-plugin-jsre",
         "@edgeros/jsre-types"
