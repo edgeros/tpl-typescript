@@ -3,7 +3,6 @@
     "target": "es6",
     "module": "commonjs",
     "outDir": "dist",
-    "watch": false,
     "removeComments": true,
     "resolveJsonModule": true,
     "lib": [
